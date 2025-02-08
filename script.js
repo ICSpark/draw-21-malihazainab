@@ -9,12 +9,9 @@ import {CARD_IMAGE, play_game} from "./js/game.js"; // We are 'importing' variab
 // === START #1.1 ===
 // TODO #1.1: Add your with your name!
 // Remove the '/*' and '*/ once you do
-/*
-const PLAYER_NAME ? ???;
-document.getElementById('???').textContent = ???;
+const PLAYER_NAME="mal";
+document.getElementById('p1_name').textContent = PLAYER_NAME;
 console.log("Let's play " + PLAYER_NAME +"!");
-*/
-// === END #1.1 ===
 
 /**
  * Draw a card from the provided deck and update the card png and player score
@@ -34,13 +31,14 @@ export function draw_and_update_card(deck, player_score) {
     // === START #2 ===
     // TODO #2: Complete the if-else tree!
     // Remove the '/*' and '*/ once you do
-    /*
+
     if(value_str == "ace"){
         player_score = player_score + 1;
     } else if(value_str == "two"){
         player_score = player_score + 2;
-    } ...
-     */
+        
+    } 
+     else if ()
     // === END #2 ===
 
     // === START #3 ===
